@@ -1,0 +1,19 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Getting Started
+
+First, install then run the development server:
+
+```bash
+npm install && npm run dev
+# or
+yarn install && yarn dev
+```
+
+## Project architecture
+```
+I used nextjs framework to use react components also installed react-bootstrap for styling, It's also using react-redux to manage the app store for the whole app and shared states.
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+

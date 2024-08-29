@@ -1,0 +1,30 @@
+.contactForm {
+  margin-top: 116px;
+  padding: 12px;
+  border: 1px solid #dadada;
+  background: #dadada;
+}
+
+.divCenterElements {
+  text-align: center;
+}
+
+.formInput {
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.phoneFormInput {
+  padding: 8px;
+}
+
+.formTitle {
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+.contactNowButton {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 50%;
+}

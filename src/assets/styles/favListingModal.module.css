@@ -1,0 +1,12 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns */
+  gap: 16px;
+  padding: 20px; /* Padding around the grid */
+}
+
+.noMatchedElements {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,136 @@
+.mainDiv {
+  margin: 32px;
+}
+
+.backButton {
+  margin-bottom: 24px;
+}
+
+.bodyDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentDiv {
+  margin-top: 32px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.column1 {
+  flex: 0 0 70%;
+}
+
+.column2 {
+  flex: 0 0 30%;
+}
+
+.titleDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.titleText {
+  flex: 0 0 70%;
+}
+
+.titlePrice {
+  flex: 0 0 30%;
+  text-align: right;
+}
+
+.locationText {
+  flex: 0 0 70%;
+}
+
+.dateListedText {
+  flex: 0 0 30%;
+  color: gray;
+  text-align: right;
+}
+
+.savePropertyButton {
+  width: 60%;
+  float: right;
+}
+
+.heartIcon {
+  margin-right: 6px;
+}
+
+.imageContainer {
+  margin-top: 20px;
+  text-align: center;
+  background: #aaf4ed;
+}
+
+.imageStyle {
+  width: 350px;
+  height: 350px;
+}
+
+.detailsGrid {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #b0b0b0;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+.detailItem {
+  text-align: center;
+  font-size: 22px;
+}
+
+.detailItemDescription {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+.listingDescriptions {
+  margin-top: 22px;
+  font-size: 14px;
+  color: gray;
+}
+
+.contactButton {
+  background-color: #d9e7fd;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contentDiv, .titleDiv {
+    flex-direction: column;
+  }
+
+  .imageStyle {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .column1, .column2, .titleText, .titlePrice, .locationText, .dateListedText {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .dateListedText {
+    color: gray;
+  }
+  
+  .column2 {
+    margin-bottom: 0;
+  }
+}

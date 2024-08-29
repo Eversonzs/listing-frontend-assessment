@@ -1,0 +1,43 @@
+.cardStyle {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.cardImage {
+  margin-top: 22px;
+  margin-bottom: 6px;
+  width: 150px;
+  height: 150px;
+  object-fit:cover;
+  align-self: center
+}
+
+.firstSubtitleStyle {
+  color: #717171;
+  margin-bottom: 6px;
+}
+
+.secondSubtitleStyle {
+  color: #9e9d9d;
+}
+
+.priceStyle {
+  margin-top: 10px;
+}
+
+.viewDetailsbuttonStyle {
+  width: 80%;
+  margin-top: auto;
+  align-self: center;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.linkStyle {
+  text-align: center;
+}
